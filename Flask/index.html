@@ -1,0 +1,182 @@
+ 
+<html>
+<head>
+      <title> Pk</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      
+</head>
+<body>
+       <div class="container" id="Home">
+        <nav> 
+          <img src="images/logo.png"  class="logo"> 
+          
+              
+           <div class="navbar" id="navLinks">
+           <div class="close"><i class="fas fa-times" onclick="hideMenu()"></i></div>
+           <ul>
+             <li><a href="#Home">Home</a></li>
+             <li><a href="#predict">Predict</a></li>
+             <li><a href="#about">About Us</a></li>
+             <li><a href="#contact">contact</a></li>
+           </ul>
+        </div>
+        <div class="menu"><i class="fas fa-bars" onclick="showMenu()"></i></div>
+</nav>
+    <div class="content">
+     
+          <h1>Machine Learning Model For Engine Failure Prediction</h1>
+          <p>Machine Learning algorithms are used in order to predict the Engine Failure<br> and shows user to take early steps for prevention of complete failure.</p>
+     <div>
+        
+       <a href="#predict">
+       <button type="button">Predict</button>
+       </a>
+     </div>
+</div>
+</div>
+</div>
+<div class="banner" id="predict">
+ <nav1> 
+          <img src="images/logo.png"  class="logo"> 
+          
+              
+           <div class="navbar1" id="navLinks1">
+           <div class="close1"><i class="fas fa-times" onclick="hideMenu1()"></i></div>
+           <ul>
+             <li><a href="#Home">Home</a></li>
+             <li><a href="#predict">Predict</a></li>
+             <li><a href="#about">About Us</a></li>
+             <li><a href="#contact">contact</a></li>
+           </ul>
+        </div>
+        <div class="menu1"><i class="fas fa-bars" onclick="showMenu1()"></i></div>
+</nav1>
+   <div class="row">
+   <div class="column">
+     <video src="images/manual.mp4" muted loop autoplay class="manual"></video>
+     <h> Manual Prediction</h>
+     <p>User have to give the details of the sensor reading manually</p>
+     <div>
+      <a href="http://localhost:5000/m_predict">
+     <button type="button">Predict</button>
+       </a>
+  </div>
+ </div>
+  <div class="column">
+     <video src="images/sensor.mp4" muted loop autoplay class="sensor"></video>
+     <h> Sensor Prediction</h>
+     <p>sensor readings has been read automatically</p>
+     <a href="http://localhost:5000/s_predict">
+     <button type="button">Predict</button> 
+     </a>
+ </div>
+</div>
+</div>
+
+<div class="about_us" id="about">
+ <nav2> 
+          <img src="images/logo.png"  class="logo"> 
+          
+              
+           <div class="navbar2" id="navLinks2">
+           <div class="close2"><i class="fas fa-times" onclick="hideMenu2()"></i></div>
+           <ul>
+             <li><a href="#Home">Home</a></li>
+             <li><a href="#predict">Predict</a></li>
+             <li><a href="#about">About Us</a></li>
+             <li><a href="#contact">contact</a></li>
+           </ul>
+        </div>
+        <div class="menu2"><i class="fas fa-bars" onclick="showMenu2()"></i></div>
+</nav2>
+        <div class:"about">
+          <h1>About Us</h1>
+                   <div class="layer">
+                     <div class="text">Our goal is to minimize the costs associated with:<br>Unnecessary checks done by a mechanic($10).<br>Missing a faulty truck, which may cause a breakdown in the future($500).<br>The units for each sensor’s data is kept private for proprietary reasons. However the main objective of our program will be to predict and minimize<br> the cost of failures associated with these combinations of readings.</div>
+                   </div>
+</div>  
+</div>
+</div>
+</div>
+<div class="contact" id="contact">
+ <nav3> 
+          <img src="images/logo.png"  class="logo"> 
+          
+              
+           <div class="navbar3" id="navLinks3">
+           <div class="close3"><i class="fas fa-times" onclick="hideMenu3()"></i></div>
+           <ul>
+             <li><a href="#Home">Home</a></li>
+             <li><a href="#predict">Predict</a></li>
+             <li><a href="#about">About Us</a></li>
+             <li><a href="#contact">contact</a></li>
+           </ul>
+        </div>
+        <div class="menu3"><i class="fas fa-bars" onclick="showMenu3()"></i></div>
+</nav3>
+  <h1>Contact</h1>
+   <div class="row">
+   <div class="column1">
+     <div class="env"><i class="far fa-envelope"></i></div>
+     
+     <p>12345678@gmail.com</p>
+ 
+ </div>
+  <div class="column1">
+     <div class="env"><i class="fas fa-phone-alt"></i></div>
+     <p>(+431) 60709022 </p>
+    
+ </div>
+  <div class="column1">
+     <div class="env"><i class="fas fa-mobile-alt"></i></div>
+     <p>(+91)9080989457 </p>
+    </div>
+    <div class="column1">
+     <div class="env"><i class="fas fa-map-marked-alt"></i></i></div>
+     <p>144,Pillai Mangar<br>Eda Streed Road<br>Trichy-8 </p>
+    </div>
+   
+</div>
+</div>
+<script src="https://kit.fontawesome.com/4fd00a9c2d.js" crossorigin="anonymous"></script>  
+
+<script>
+       var navLinks=document.getElementById("navLinks");
+       function showMenu(){
+            navLinks.style.right="0";
+         }
+       function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+</script>
+<script>
+       var navLinks1=document.getElementById("navLinks1");
+       function showMenu1(){
+            navLinks1.style.right="0px";
+         }
+       function hideMenu1(){
+            navLinks1.style.right="-300px";
+        }
+</script>
+<script>
+       var navLinks2=document.getElementById("navLinks2");
+       function showMenu2(){
+            navLinks2.style.right="0px";
+         }
+       function hideMenu2(){
+            navLinks2.style.right="-300px";
+        }
+</script>
+<script>
+       var navLinks3=document.getElementById("navLinks3");
+       function showMenu3(){
+            navLinks3.style.right="0px";
+         }
+       function hideMenu3(){
+            navLinks3.style.right="-300px";
+        }
+</script>
+
+</body>
+</html>
